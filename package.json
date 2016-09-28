@@ -1,0 +1,11 @@
+{
+  "name": "ama-voximplant-sdk",
+  "version": "0.1.0",
+  "description": "Library for developing VoxImplant applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AMA Team",
+  "license": "MIT"
+}
