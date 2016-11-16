@@ -1,4 +1,7 @@
+# Node / build files
 node_modules
 npm-debug.log
 doc
+
+# IDE files
 .idea
