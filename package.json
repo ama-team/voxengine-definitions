@@ -1,21 +1,40 @@
 {
-  "name": "@ama-team/voxengine-sdk",
+  "name": "@ama-team/voxengine-definitions",
   "version": "0.1.0",
   "description": "Library for developing VoxImplant applications",
+  "keywords": ["voximplant", "voxengine"],
   "main": "index.js",
+  "engines": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node_modules/.bin/jsdoc -d doc lib"
   },
-  "repository": "https://github.com/ama-team/voxengine-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ama-team/voxengine-definitions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ama-team/voxengine-definitions/issues"
+  },
   "author": {
     "name": "AMA Team",
     "email": "dev@amagroup.ru"
   },
+  "contributors": [
+    {
+      "name": "Etki",
+      "email": "etki@etki.me"
+    }
+  ],
   "maintainers": [
-    "Etki"
+    {
+      "name": "Etki",
+      "email": "etki@etki.me"
+    }
   ],
   "license": "MIT",
+  "homepage": "https://github.com/ama-team/voxengine-definitions#readme",
+  "dependencies": {},
   "devDependencies": {
     "jsdoc": "^3.4.3",
     "promise": "^7.1.1"
