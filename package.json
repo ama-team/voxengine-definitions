@@ -15,7 +15,7 @@
     "Etki"
   ],
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "promise": "^7.1.1"
   }
 }
