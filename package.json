@@ -4,7 +4,8 @@
   "description": "Library for developing VoxImplant applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node_modules/.bin/jsdoc -d doc lib"
   },
   "repository": "https://github.com/ama-team/voxengine-sdk.git",
   "author": {
@@ -16,6 +17,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "jsdoc": "^3.4.3",
     "promise": "^7.1.1"
   }
 }
