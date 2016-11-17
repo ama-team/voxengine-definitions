@@ -7,7 +7,7 @@
   "engines": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node_modules/.bin/jsdoc -d doc lib"
+    "generate": "node_modules/.bin/jsdoc -r -d doc lib"
   },
   "repository": {
     "type": "git",
